@@ -18,10 +18,13 @@ const Navbar = () => {
               <summary>Admin</summary>
               <ul className="p-2 bg-base-100">
                 <li>
-                  <a>Employees</a>
+                  <Link href="/manageEmployees">Employees</Link>
                 </li>
                 <li>
                   <a>Patients</a>
+                </li>
+                <li>
+                  <Link href="/">HOME</Link>
                 </li>
               </ul>
             </details>
